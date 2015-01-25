@@ -1,0 +1,41 @@
+.head {
+    height: 85px;
+    background: #21242d;
+}
+
+.head-brand {
+    padding-top: 15px;
+    color: #6b7183;
+    font-size: 3em;
+    text-shadow: -2px 2px 2px #111;
+}
+
+.head-menu {
+    padding-top: 25px;
+}
+
+.head-menu-items li {
+    padding: 9px 25px 0 0;
+}
+
+.head-menu-items li a {
+    font-weight: bold;
+    color: #7c839a;
+}
+
+.head-menu-items li a:hover {
+    text-decoration: none;
+}
+
+.footer-first {
+    padding-top: 40px;
+    height: 105px;
+    background: #2c2f39;
+    box-shadow: 0 5px 3px -4px #000 inset;
+}
+
+.footer-second {
+    padding-top: 35px;
+    height: 80px;
+    background: #25282f;
+}
