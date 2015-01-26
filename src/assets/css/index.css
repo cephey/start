@@ -26,10 +26,39 @@
 }
 
 .process {
-    padding-top: 10px;
-    height: 150px;
+    padding-top: 2.5em;
+    height: 7em;
     background: #f2f4f8;
     box-shadow: 0 -1px 0 #dce1e6 inset;
+    font-size: 1.3em;
+}
+.process ul {
+    display: inline-block;
+    color: #414652;
+}
+.process .process-arrow {
+    color: #dce0ec;
+    font-size: 1.2em;
+}
+@media (max-width: 768px) {
+    .process .process-item {
+        padding: 0 0.6em;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .process .process-item {
+        padding: 0 1em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .process .process-item {
+        padding: 0 2em;
+    }
+}
+@media (min-width: 1200px) {
+    .process .process-item {
+        padding: 0 3em;
+    }
 }
 
 .target {
